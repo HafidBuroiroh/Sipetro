@@ -1,0 +1,190 @@
+﻿@model IEnumerable<Login.Models.Master_Data>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead class=" table-bordered">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.POPULATIONREGISTERNO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TAXREGISTERNO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PASSPORTNO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KITAS)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FULL_NAME)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PHONE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GENDER)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EMAIL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BIRTHDATE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HIGHSCHOOL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UNIVERSITY)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UNIVERSITYMAJOR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MSSCHOOL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MSMAJOR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PHDSCHOOL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PHDMAJOR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.POSITION)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.COUNTRYCODE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PROVINCECODE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ADDRESS)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CITY)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.POSTALCODE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BUSINESS_REG_NO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OCCUPATION)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LOC_ASING)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NASIONALITY)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateCreated)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.POPULATIONREGISTERNO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TAXREGISTERNO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PASSPORTNO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KITAS)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FULL_NAME)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PHONE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GENDER)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EMAIL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BIRTHDATE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HIGHSCHOOL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UNIVERSITY)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UNIVERSITYMAJOR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MSSCHOOL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MSMAJOR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PHDSCHOOL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PHDMAJOR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.POSITION)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.COUNTRYCODE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PROVINCECODE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ADDRESS)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CITY)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.POSTALCODE)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BUSINESS_REG_NO)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OCCUPATION)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LOC_ASING)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NASIONALITY)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateCreated)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.PERSONID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.PERSONID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.PERSONID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

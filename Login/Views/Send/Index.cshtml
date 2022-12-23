@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["title"] = "Send Data";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    ViewData["title"] = "Generate Data";
+}
+<h2 class="mt-5">Send Data</h2>
+<hr />
+
+
+
+    <div class="row">
+        <div class="col-md-4">
+
+        <div class="mb-3">
+        <label class="form-label">Email To</label>
+        <input type="email" class="form-control"">
+        </div>
+        </div>
+    </div>
+<div class="row">
+    <div class="col-md-4">
+
+        <div class="mb-3">
+            <label class="form-label">Email Cc</label>
+            <input type="text" class="form-control" ">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <label class="form-label">Upload</label>
+        <div class="input-group mb-3">
+            <input type="file" class="form-control" id="inputGroupFile02">
+        </div>
+    </div>
+</div>
+
+<button class="btn btn-sm btn-success fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">Send</button>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                Message
+            </div>
+            <div class="modal-body">
+                <h4 class="text-center">Send Success</h4>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-danger" data-bs-dismiss="modal"><i class="fa-regular fa-circle-xmark"></i></button>
+            </div>
+        </div>
+    </div>
+</div>

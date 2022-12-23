@@ -1,0 +1,235 @@
+﻿@model IEnumerable<Login.Models.Master_Data>
+
+@{
+    ViewData["title"] = "Transfer Data";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mt-5">Transfer Data</h2>
+<hr />
+<form asp-action="Search" asp-antiforgery="true" id="non" method="post">
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">From</span>
+            <input name="from" type="date" value="@ViewData["CurrentFilter"]" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Until</span>
+            <input name="until" type="date"  value="@ViewData["CurrentFilters"]" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+    </div>
+</div>
+    <button name="btnsubmit" type="submit" onclick="openModal()" value="Transfer" class="btn btn-sm btn-success fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">Transfer</button>
+    <input name="btnsubmit" type="submit" value="Search" class="btn btn-sm btn-success fw-bold"  style="margin-left:10px;">
+
+    <!--Modal-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Transfer Completed
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+
+<div style="overflow-x:auto; margin-top:10px;">
+    <table class="table table-bordered" border="1">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.POPULATIONREGISTERNO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TAXREGISTERNO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PASSPORTNO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KITAS)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FULL_NAME)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PHONE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GENDER)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EMAIL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BIRTHDATE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HIGHSCHOOL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UNIVERSITY)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UNIVERSITYMAJOR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MSSCHOOL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MSMAJOR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PHDSCHOOL)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PHDMAJOR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.POSITION)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.COUNTRYCODE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PROVINCECODE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ADDRESS)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CITY)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.POSTALCODE)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BUSINESS_REG_NO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OCCUPATION)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LOC_ASING)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NASIONALITY)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateCreated)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.POPULATIONREGISTERNO)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TAXREGISTERNO)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PASSPORTNO)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.KITAS)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FULL_NAME)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PHONE)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.GENDER)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EMAIL)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BIRTHDATE)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HIGHSCHOOL)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UNIVERSITY)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UNIVERSITYMAJOR)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MSSCHOOL)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MSMAJOR)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PHDSCHOOL)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PHDMAJOR)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.POSITION)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.COUNTRYCODE)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PROVINCECODE)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ADDRESS)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CITY)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.POSTALCODE)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BUSINESS_REG_NO)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OCCUPATION)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LOC_ASING)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NASIONALITY)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateCreated)
+                </td>
+                
+            </tr>
+        }
+    </tbody>
+</table>
+</div>
+<script type="text/javascript">
+    function openModal() {
+        if
+        document.getElementById("non").submit();
+    }
+</script>
+
+

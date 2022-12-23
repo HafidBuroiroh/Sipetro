@@ -1,0 +1,46 @@
+PERSONID|POPULATIONREGISTERNO|TAXREGISTERNO|PASSPORTNO|KITAS|FULL_NAME|PHONE|GENDER|EMAIL|BIRTHDATE|HIGHSCHOOL|UNIVERSITY|UNIVERSITYMAJOR|MSSCHOOL|MSMAJOR|PHDSCHOOL|PHDMAJOR|POSITION|COUNTRYCODE|PROVINCECODE|ADDRESS|CITY|POSTALCODE|BUSINESS_REG_NO|OCCUPATION|LOC_ASING|NASIONALITY|
+1027|4874865|75465|||Asep Maulana|8789|1|asep@gmail.com|15/02/2000 14:42:00|||||||||ID|12|Jl. H. Naim|1212|40132|||D|104|
+1028|986987|986076|||Mimin Edianti|97968|2|mimin@gmail.com|04/02/1998 15:18:00|||||||||ID|17|Jl. H. icang|1705|30125||6|D|104|
+1029|976807|877896|||Ilham Mukhlisin|7697798|1|ilham@gmail.com|12/05/1993 16:34:00|||||||||ID|18|Gn. Batin Baru; Kec. Terusan Nunyai|1802|34167||4|D|104|
+1030|4874865|75465|||Asep Maulana|8789|1|asep@gmail.com|15/02/2000 14:42:00|||||||||ID|12|Jl. H. Naim|1212|40132|||D|104|
+1031|986987|986076|||Mimin Edianti|97968|2|mimin@gmail.com|04/02/1998 15:18:00|||||||||ID|17|Jl. H. icang|1705|30125||6|D|104|
+1032|976807|877896|||Ilham Mukhlisin|7697798|1|ilham@gmail.com|12/05/1993 16:34:00|||||||||ID|18|Gn. Batin Baru; Kec. Terusan Nunyai|1802|34167||4|D|104|
+1033|4874865|75465|||Asep Maulana|8789|1|asep@gmail.com|15/02/2000 14:42:00|||||||||ID|12|Jl. H. Naim|1212|40132|||D|104|
+1034|986987|986076|||Mimin Edianti|97968|2|mimin@gmail.com|04/02/1998 15:18:00|||||||||ID|17|Jl. H. icang|1705|30125||6|D|104|
+1035|976807|877896|||Ilham Mukhlisin|7697798|1|ilham@gmail.com|12/05/1993 16:34:00|||||||||ID|18|Gn. Batin Baru; Kec. Terusan Nunyai|1802|34167||4|D|104|
+1036|4874865|75465|||Asep Maulana|8789|1|asep@gmail.com|15/02/2000 14:42:00|||||||||ID|12|Jl. H. Naim|1212|40132|||D|104|
+1037|986987|986076|||Mimin Edianti|97968|2|mimin@gmail.com|04/02/1998 15:18:00|||||||||ID|17|Jl. H. icang|1705|30125||6|D|104|
+1038|976807|877896|||Ilham Mukhlisin|7697798|1|ilham@gmail.com|12/05/1993 16:34:00|||||||||ID|18|Gn. Batin Baru; Kec. Terusan Nunyai|1802|34167||4|D|104|
+1039|4874865|75465|||Asep Maulana|8789|1|asep@gmail.com|15/02/2000 14:42:00|||||||||ID|12|Jl. H. Naim|1212|40132|||D|104|
+1040|986987|986076|||Mimin Edianti|97968|2|mimin@gmail.com|04/02/1998 15:18:00|||||||||ID|17|Jl. H. icang|1705|30125||6|D|104|
+1041|976807|877896|||Ilham Mukhlisin|7697798|1|ilham@gmail.com|12/05/1993 16:34:00|||||||||ID|18|Gn. Batin Baru; Kec. Terusan Nunyai|1802|34167||4|D|104|
+1042|4874865|75465|||Asep Maulana|8789|1|asep@gmail.com|15/02/2000 14:42:00|||||||||ID|12|Jl. H. Naim|1212|40132|||D|104|
+1043|986987|986076|||Mimin Edianti|97968|2|mimin@gmail.com|04/02/1998 15:18:00|||||||||ID|17|Jl. H. icang|1705|30125||6|D|104|
+1044|976807|877896|||Ilham Mukhlisin|7697798|1|ilham@gmail.com|12/05/1993 16:34:00|||||||||ID|18|Gn. Batin Baru; Kec. Terusan Nunyai|1802|34167||4|D|104|
+1045|4874865|75465|||Asep Maulana|8789|1|asep@gmail.com|15/02/2000 14:42:00|||||||||ID|12|Jl. H. Naim|1212|40132|||D|104|
+1046|986987|986076|||Mimin Edianti|97968|2|mimin@gmail.com|04/02/1998 15:18:00|||||||||ID|17|Jl. H. icang|1705|30125||6|D|104|
+1047|976807|877896|||Ilham Mukhlisin|7697798|1|ilham@gmail.com|12/05/1993 16:34:00|||||||||ID|18|Gn. Batin Baru; Kec. Terusan Nunyai|1802|34167||4|D|104|
+1048|4874865|75465|||Asep Maulana|8789|1|asep@gmail.com|15/02/2000 14:42:00|||||||||ID|12|Jl. H. Naim|1212|40132|||D|104|
+1049|986987|986076|||Mimin Edianti|97968|2|mimin@gmail.com|04/02/1998 15:18:00|||||||||ID|17|Jl. H. icang|1705|30125||6|D|104|
+1050|976807|877896|||Ilham Mukhlisin|7697798|1|ilham@gmail.com|12/05/1993 16:34:00|||||||||ID|18|Gn. Batin Baru; Kec. Terusan Nunyai|1802|34167||4|D|104|
+1051|4874865|75465|||Asep Maulana|8789|1|asep@gmail.com|15/02/2000 14:42:00|||||||||ID|12|Jl. H. Naim|1212|40132|||D|104|
+1052|986987|986076|||Mimin Edianti|97968|2|mimin@gmail.com|04/02/1998 15:18:00|||||||||ID|17|Jl. H. icang|1705|30125||6|D|104|
+1053|976807|877896|||Ilham Mukhlisin|7697798|1|ilham@gmail.com|12/05/1993 16:34:00|||||||||ID|18|Gn. Batin Baru; Kec. Terusan Nunyai|1802|34167||4|D|104|
+1054|875978|8758576|||Glorius Minhwa|7689768|1|glorius@gmail.com|16/02/2013 10:54:00|||||||||ID|89|Jl. H. icang|87|1665||4|D|104|
+1055|4874865|75465|||Asep Maulana|8789|1|asep@gmail.com|15/02/2000 14:42:00|||||||||ID|12|Jl. H. Naim|1212|40132|||D|104|
+1056|986987|986076|||Mimin Edianti|97968|2|mimin@gmail.com|04/02/1998 15:18:00|||||||||ID|17|Jl. H. icang|1705|30125||6|D|104|
+1057|976807|877896|||Ilham Mukhlisin|7697798|1|ilham@gmail.com|12/05/1993 16:34:00|||||||||ID|18|Gn. Batin Baru; Kec. Terusan Nunyai|1802|34167||4|D|104|
+1058|875978|8758576|||Glorius Minhwa|7689768|1|glorius@gmail.com|16/02/2013 10:54:00|||||||||ID|89|Jl. H. icang|87|1665||4|D|104|
+1059|4874865|75465|||Asep Maulana|8789|1|asep@gmail.com|15/02/2000 14:42:00|||||||||ID|12|Jl. H. Naim|1212|40132|||D|104|
+1060|986987|986076|||Mimin Edianti|97968|2|mimin@gmail.com|04/02/1998 15:18:00|||||||||ID|17|Jl. H. icang|1705|30125||6|D|104|
+1061|976807|877896|||Ilham Mukhlisin|7697798|1|ilham@gmail.com|12/05/1993 16:34:00|||||||||ID|18|Gn. Batin Baru; Kec. Terusan Nunyai|1802|34167||4|D|104|
+1062|875978|8758576|||Glorius Minhwa|7689768|1|glorius@gmail.com|16/02/2013 10:54:00|||||||||ID|89|Jl. H. icang|87|1665||4|D|104|
+1063|4874865|75465|||Asep Maulana|8789|1|asep@gmail.com|15/02/2000 14:42:00|||||||||ID|12|Jl. H. Naim|1212|40132|||D|104|
+1064|986987|986076|||Mimin Edianti|97968|2|mimin@gmail.com|04/02/1998 15:18:00|||||||||ID|17|Jl. H. icang|1705|30125||6|D|104|
+1065|976807|877896|||Ilham Mukhlisin|7697798|1|ilham@gmail.com|12/05/1993 16:34:00|||||||||ID|18|Gn. Batin Baru; Kec. Terusan Nunyai|1802|34167||4|D|104|
+1066|875978|8758576|||Glorius Minhwa|7689768|1|glorius@gmail.com|16/02/2013 10:54:00|||||||||ID|89|Jl. H. icang|87|1665||4|D|104|
+1067|4874865|75465|||Asep Maulana|8789|1|asep@gmail.com|15/02/2000 14:42:00|||||||||ID|12|Jl. H. Naim|1212|40132|||D|104|
+1068|986987|986076|||Mimin Edianti|97968|2|mimin@gmail.com|04/02/1998 15:18:00|||||||||ID|17|Jl. H. icang|1705|30125||6|D|104|
+1069|976807|877896|||Ilham Mukhlisin|7697798|1|ilham@gmail.com|12/05/1993 16:34:00|||||||||ID|18|Gn. Batin Baru; Kec. Terusan Nunyai|1802|34167||4|D|104|
+1070|875978|8758576|||Glorius Minhwa|7689768|1|glorius@gmail.com|16/02/2013 10:54:00|||||||||ID|89|Jl. H. icang|87|1665||4|D|104|
+
